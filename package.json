@@ -5,6 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "deploy": "npm version patch && npm run deploy:app",
+    "deploy:app": "npm version patch --prefix public && npm run build && npm publish ./dist --access public",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
