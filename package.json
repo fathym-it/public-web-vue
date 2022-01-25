@@ -1,6 +1,6 @@
 {
-  "name": "vue-typescript-app",
-  "version": "0.1.0",
+  "name": "@fathym-it/public-web-vue",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
