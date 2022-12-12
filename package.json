@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
     "deploy": "npm version patch && npm run deploy:app",
     "deploy:app": "npm version patch --prefix public && npm run build && npm publish ./dist --access public",
     "lint": "vue-cli-service lint"
