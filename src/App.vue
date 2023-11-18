@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Coming Soon</h1>
+    <h1>Something a Bot can do</h1>
   </div>
 </template>
 
